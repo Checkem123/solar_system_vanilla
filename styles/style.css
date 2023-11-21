@@ -1,0 +1,114 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/galaxy.gif");
+    color: white;
+}
+
+header {
+    text-align: center;
+    height: 200px;
+}
+
+header h1 {
+    margin: 40px 0 40px 0;
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: 0px;
+}
+
+header input {
+    width: 25%;
+    border: 0;
+    height: 24px;
+    padding: 8px;
+    outline: 4px solid #b4b4b450;
+}
+
+header select {
+    width: 20%;
+    height: 24px;
+    border-radius: 0;
+    border: 0;
+    padding: 0 8px;
+}
+
+header button {
+    width: 15%;
+    height: 24px;
+    border-radius: 0;
+    border: 0;
+    padding: 0 8px;
+}
+
+header .error-msg {
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 600;
+    margin-top: 20px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: rgb(255, 67, 67);
+    text-decoration: underline;
+}
+
+.flex-container {
+    background-color: #b4b4b450;
+    width: 70%;
+    margin: 30px auto;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 30px 60px;
+    justify-content: space-between;
+}
+
+.description {
+    background-color: #b4b4b453;
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.description h2 {
+    font-size: 26px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 100;
+    margin-bottom: 30px;
+    color: rgb(238, 238, 238);
+    text-shadow: 2px 2px 7px black;
+}
+
+.description .planet {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+}
+
+.description .result {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+    background-color: #b4b4b481;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 7px black;
+}
+
+.description .weight {
+    margin-right: 10px;
+}
